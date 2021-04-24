@@ -1,0 +1,36 @@
+$border-color: #eee;
+$hover-background: rgba(0, 0, 0, .015);
+
+.table {
+  .row-wrapper {
+    background: $hover-background;
+    position: relative;
+
+    & .row-wrapper {
+      padding-left: 15px;
+    }
+
+    .row {
+      display: flex;
+
+      .col {
+        display: flex;
+        align-items: center;
+        flex: 1;
+        padding: 20px;
+        background: #fff;
+        transition: background .2s;
+      }
+    }
+
+    &:hover {
+      .col {
+        background: $hover-background;
+      }
+    }
+  }
+
+  & > .row-wrapper {
+    border-top: 1px solid $border-color;
+  }
+}

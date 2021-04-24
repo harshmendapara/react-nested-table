@@ -1,0 +1,23 @@
+.btn {
+  border: none;
+  background: #ffffff;
+  color: deepskyblue;
+  width: 100%;
+  padding: 7px;
+  cursor: pointer;
+  font-weight: bold;
+
+  &-primary {
+    background: deepskyblue;
+    color: #ffffff;
+  }
+
+  &:focus {
+    outline: none;
+  }
+
+  &[disabled] {
+    opacity: .2;
+    cursor: not-allowed;
+  }
+}

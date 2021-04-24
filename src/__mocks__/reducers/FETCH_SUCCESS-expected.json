@@ -1,0 +1,262 @@
+{
+  "flatItems": [
+    {
+      "City": "Coevorden",
+      "ID": 1,
+      "Name": "Grady",
+      "Phone": "(403) 125-2552",
+      "parentID": 0
+    },
+    {
+      "City": "Che\u0142m",
+      "ID": 2,
+      "Name": "Scarlet",
+      "Phone": "(979) 486-1932"
+    },
+    {
+      "City": "Wardha",
+      "ID": 3,
+      "Name": "Adria",
+      "Phone": "(573) 685-8350"
+    },
+    {
+      "City": "Villers-la-Loue",
+      "ID": 4,
+      "Name": "Xerxes",
+      "Phone": "(630) 292-9737",
+      "parentID": 3
+    },
+    {
+      "City": "G\u00f6nen",
+      "ID": 5,
+      "Name": "Madeson",
+      "Phone": "(755) 968-6539"
+    },
+    {
+      "City": "Timkur",
+      "ID": 6,
+      "Name": "Rae",
+      "Phone": "(644) 892-5485",
+      "parentID": 5
+    },
+    {
+      "City": "Louvain-la-Neuve",
+      "ID": 7,
+      "Name": "Celeste",
+      "Phone": "(896) 297-6568"
+    },
+    {
+      "City": "Worksop",
+      "ID": 8,
+      "Name": "Rowan",
+      "Phone": "(168) 452-3538",
+      "parentID": 5
+    },
+    {
+      "City": "Bad Neuenahr-Ahrweiler",
+      "ID": 9,
+      "Name": "Kendall",
+      "Phone": "(873) 337-9560",
+      "parentID": 5
+    },
+    {
+      "City": "Middelburg",
+      "ID": 10,
+      "Name": "Madaline",
+      "Phone": "(450) 579-0491"
+    },
+    {
+      "City": "Birecik",
+      "ID": 11,
+      "Name": "Chandler",
+      "Phone": "(111) 162-2502"
+    },
+    {
+      "City": "Courbevoie",
+      "ID": 12,
+      "Name": "Craig",
+      "Phone": "(712) 483-3905",
+      "parentID": 8
+    },
+    {
+      "City": "Cuccaro Vetere",
+      "ID": 13,
+      "Name": "Basia",
+      "Phone": "(872) 499-5833",
+      "parentID": 8
+    },
+    {
+      "City": "Portree",
+      "ID": 14,
+      "Name": "Elmo",
+      "Phone": "(724) 797-0077",
+      "parentID": 6
+    },
+    {
+      "City": "Dublin",
+      "ID": 15,
+      "Name": "Cairo",
+      "Phone": "(366) 967-0433",
+      "parentID": 5
+    }
+  ],
+  "isFetching": false,
+  "itemCount": 15,
+  "items": [
+    {
+      "City": "Coevorden",
+      "ID": 1,
+      "Name": "Grady",
+      "Phone": "(403) 125-2552",
+      "absolutePosition": 0,
+      "children": [
+
+      ],
+      "parentID": 0
+    },
+    {
+      "City": "Che\u0142m",
+      "ID": 2,
+      "Name": "Scarlet",
+      "Phone": "(979) 486-1932",
+      "absolutePosition": 1,
+      "children": [
+
+      ]
+    },
+    {
+      "City": "Wardha",
+      "ID": 3,
+      "Name": "Adria",
+      "Phone": "(573) 685-8350",
+      "absolutePosition": 2,
+      "children": [
+        {
+          "City": "Villers-la-Loue",
+          "ID": 4,
+          "Name": "Xerxes",
+          "Phone": "(630) 292-9737",
+          "absolutePosition": 3,
+          "children": [
+
+          ],
+          "parentID": 3
+        }
+      ]
+    },
+    {
+      "City": "G\u00f6nen",
+      "ID": 5,
+      "Name": "Madeson",
+      "Phone": "(755) 968-6539",
+      "absolutePosition": 4,
+      "children": [
+        {
+          "City": "Timkur",
+          "ID": 6,
+          "Name": "Rae",
+          "Phone": "(644) 892-5485",
+          "absolutePosition": 5,
+          "children": [
+            {
+              "City": "Portree",
+              "ID": 14,
+              "Name": "Elmo",
+              "Phone": "(724) 797-0077",
+              "absolutePosition": 13,
+              "children": [
+
+              ],
+              "parentID": 6
+            }
+          ],
+          "parentID": 5
+        },
+        {
+          "City": "Worksop",
+          "ID": 8,
+          "Name": "Rowan",
+          "Phone": "(168) 452-3538",
+          "absolutePosition": 7,
+          "children": [
+            {
+              "City": "Courbevoie",
+              "ID": 12,
+              "Name": "Craig",
+              "Phone": "(712) 483-3905",
+              "absolutePosition": 11,
+              "children": [
+
+              ],
+              "parentID": 8
+            },
+            {
+              "City": "Cuccaro Vetere",
+              "ID": 13,
+              "Name": "Basia",
+              "Phone": "(872) 499-5833",
+              "absolutePosition": 12,
+              "children": [
+
+              ],
+              "parentID": 8
+            }
+          ],
+          "parentID": 5
+        },
+        {
+          "City": "Bad Neuenahr-Ahrweiler",
+          "ID": 9,
+          "Name": "Kendall",
+          "Phone": "(873) 337-9560",
+          "absolutePosition": 8,
+          "children": [
+
+          ],
+          "parentID": 5
+        },
+        {
+          "City": "Dublin",
+          "ID": 15,
+          "Name": "Cairo",
+          "Phone": "(366) 967-0433",
+          "absolutePosition": 14,
+          "children": [
+
+          ],
+          "parentID": 5
+        }
+      ]
+    },
+    {
+      "City": "Louvain-la-Neuve",
+      "ID": 7,
+      "Name": "Celeste",
+      "Phone": "(896) 297-6568",
+      "absolutePosition": 6,
+      "children": [
+
+      ]
+    },
+    {
+      "City": "Middelburg",
+      "ID": 10,
+      "Name": "Madaline",
+      "Phone": "(450) 579-0491",
+      "absolutePosition": 9,
+      "children": [
+
+      ]
+    },
+    {
+      "City": "Birecik",
+      "ID": 11,
+      "Name": "Chandler",
+      "Phone": "(111) 162-2502",
+      "absolutePosition": 10,
+      "children": [
+
+      ]
+    }
+  ]
+}
